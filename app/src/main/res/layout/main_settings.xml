@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fffaf0"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/add_category_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add category"
+        android:background="@drawable/corners_value_inp"
+        app:layout_constraintBottom_toTopOf="@+id/change_theme_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/change_theme_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change theme"
+        android:background="@drawable/corners_value_inp"
+        app:layout_constraintBottom_toTopOf="@+id/errase_data_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_category_button" />
+
+    <Button
+        android:id="@+id/errase_data_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erase data"
+        android:background="@drawable/corners_value_inp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/change_theme_button" />
+
+
+</android.support.constraint.ConstraintLayout>

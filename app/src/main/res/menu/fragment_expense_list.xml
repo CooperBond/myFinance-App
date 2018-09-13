@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_expense"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/new_expense"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/sortExpense"
+        android:icon="@drawable/ic_menu_sort"
+        android:title="@string/new_expense"
+        app:showAsAction="ifRoom|withText" >
+        <menu>
+            <item android:id="@+id/addOd"
+                android:title="Addition order" />
+            <item android:id="@+id/dateOd"
+                android:title="Date order" />
+            <item android:id="@+id/smtoB"
+                android:title="From the smallest to the biggest" />
+            <item android:id="@+id/btoSm"
+                android:title="From the biggest to the smallest" />
+        </menu>
+    </item>
+</menu>
